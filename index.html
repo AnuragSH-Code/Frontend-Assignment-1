@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Campaign - Brevo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="modal" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+    <div class="modal__container">
+      <header class="modal__header modal__header--sticky">
+        <h1 id="modal-title" class="modal__title">Create a campaign</h1>
+        <button 
+          class="modal__close" 
+          aria-label="Close modal"
+          type="button"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </header>
+      <div class="modal__content">
+        <section class="campaign-section">
+          <div class="campaign-section__header">
+            <h2 class="campaign-section__title">Standard</h2>
+            <p class="campaign-section__description">
+              Create a one-off campaign from scratch.
+            </p>
+          </div>
+          <div class="campaign-grid">
+            <button class="campaign-card campaign-card--email" type="button">
+              <div class="campaign-card__icon">
+                <img 
+                  src="Email.webp" 
+                  alt="" 
+                  class="campaign-card__image"
+                  width="80" 
+                  height="80"
+                  loading="lazy"
+                >
+              </div>
+              <span class="campaign-card__label">Email</span>
+            </button>
+
+            <button class="campaign-card campaign-card--sms" type="button">
+              <div class="campaign-card__icon">
+                <img 
+                  src="SMS.webp" 
+                  alt="" 
+                  class="campaign-card__image"
+                  width="80" 
+                  height="80"
+                  loading="lazy"
+                >
+              </div>
+              <span class="campaign-card__label">SMS</span>
+            </button>
+
+            <button class="campaign-card campaign-card--whatsapp" type="button">
+              <div class="campaign-card__icon">
+                <img 
+                  src="Whatsapp.webp" 
+                  alt="" 
+                  class="campaign-card__image"
+                  width="80" 
+                  height="80"
+                  loading="lazy"
+                >
+              </div>
+              <span class="campaign-card__label">WhatsApp</span>
+            </button>
+
+            <button class="campaign-card campaign-card--push" type="button">
+              <div class="campaign-card__icon">
+                <img 
+                  src="WebPush.webp" 
+                  alt="" 
+                  class="campaign-card__image"
+                  width="80" 
+                  height="80"
+                  loading="lazy"
+                >
+              </div>
+              <span class="campaign-card__label">Push Notification</span>
+            </button>
+          </div>
+        </section>
+        <section class="campaign-section">
+          <div class="campaign-section__header campaign-section__header--with-action">
+            <div class="campaign-section__info">
+              <h2 class="campaign-section__title">Automated</h2>
+              <p class="campaign-section__description">
+                Use a pre-built automated sequence of messages, or create one yourself.
+              </p>
+            </div>
+            <button class="btn btn--outline" type="button">
+              Create a Custom Automation
+            </button>
+          </div>
+          <div class="template-grid">
+            <div class="template-card">
+              <h3 class="template-card__title">Abandoned Cart</h3>
+              <p class="template-card__description">
+                Send a message after a contact abandons a cart.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Product Purchase</h3>
+              <p class="template-card__description">
+                Send a message when a product is purchased on your website.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Welcome Message</h3>
+              <p class="template-card__description">
+                Send a welcome message after a subscriber joins your list.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Marketing Activity</h3>
+              <p class="template-card__description">
+                Send messages based on whether contacts open or click on an email campaign.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Anniversary Date</h3>
+              <p class="template-card__description">
+                Send a series of messages based on a special event or birthday.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Page Visit</h3>
+              <p class="template-card__description">
+                Send a message after a contact visits a specific page on your website.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Website Event</h3>
+              <p class="template-card__description">
+                Send a message after a contact performs a specific action on your website.
+              </p>
+            </div>
+
+            <div class="template-card">
+              <h3 class="template-card__title">Transactional Activity</h3>
+              <p class="template-card__description">
+                Send a message based on whether contacts open or click on transactional emails.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
